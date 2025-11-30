@@ -8,13 +8,13 @@ sections:
   - block: hero
     content:
       title: |
-        CV4DT
+        CAMCV
       image:
         filename: home.png
       text: |
         <br>
         
-        The **Computer Vision for Digital Twins (CV4DT)** is a research group based at the [University of Cambridge](https://www.cam.ac.uk/) and led by [Olaf Wysocki](https://olafwysocki.github.io/). The CV4DT centres on developing methods and datasets for pushing the boundaries of 3D computer vision for accurate transfer of reality into the digital world to enable simulation before any action is taken.
+        The **Cambridge Computer Vision (CAMCV)** is a research initiative uniting researchers in industry and academia. We work toe-to-toe on developing novel methods pushing the boundaries of Computer Vision beyond Cambridge.
   
  #  - block: collection
  #    content:
@@ -112,18 +112,18 @@ sections:
       # Duration of transition between slides (in ms)
       interval: 2200
 
-  - block: collection
-    content:
-      title: Latest Papers
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-   #       publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
+#  - block: collection
+#    content:
+#      title: Latest Papers
+#      text: ""
+#      count: 5
+#      filters:
+#        folders:
+#          - publication
+#   #       publication_type: 'article'
+#    design:
+#      view: citation
+#      columns: '1'
 
 #  - block: markdown
 #    content:
