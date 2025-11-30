@@ -1,145 +1,148 @@
 ---
-title: 'Home'
-date: 2023-10-24
+# Leave the homepage title empty to use the site title
+title:
+date: 2022-10-24
 type: landing
-
-design:
-  # Default section spacing
-  spacing: "6rem"
 
 sections:
   - block: hero
     content:
-      title: Build Your Landing Pages with Hugo Blox
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
-      primary_action:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-        icon: rocket-launch
-      secondary_action:
-        text: Read the docs
-        url: https://docs.hugoblox.com
-      announcement:
-        text: "Announcing the release of version 1."
+      title: |
+        CV4DT
+      image:
+        filename: home.png
+      text: |
+        <br>
+        
+        The **Computer Vision for Digital Twins (CV4DT)** is a research group based at the [University of Cambridge](https://www.cam.ac.uk/) and led by [Olaf Wysocki](https://olafwysocki.github.io/). The CV4DT centres on developing methods and datasets for pushing the boundaries of 3D computer vision for accurate transfer of reality into the digital world to enable simulation before any action is taken.
+  
+ #  - block: collection
+ #    content:
+ #      title: Latest News
+ #      subtitle:
+ #      text:
+ #      count: 5
+ #      filters:
+ #        author: ''
+ #        category: ''
+ #        exclude_featured: false
+ #        publication_type: ''
+ #        tag: ''
+ #      offset: 0
+ #      order: desc
+ #      page_type: post
+ #    design:
+ #      view: card
+ #      columns: '1'
+#
+ # - block: markdown
+ #   content:
+ #     title:
+ #     subtitle: ''
+ #     text:
+ #   design:
+ #     columns: '1'
+ #     background:
+ #       image: 
+ #         filename: coders.jpg
+ #         filters:
+ #           brightness: 1
+ #         parallax: false
+ #         position: center
+ #         size: cover
+ #         text_color_light: true
+ #     spacing:
+ #       padding: ['20px', '0', '20px', '0']
+ #     css_class: fullscreen
+
+  - block: slider
+    content:
+      slides:
+      - title: 👋 Welcome to the CV4DT world
+        content: 'Check out our research focus...'
+        align: center
+        background:
+          image:
+            filename: zahaAnimated.gif
+            filters:
+              brightness: 0.7
+          position: right
+          color: '#666'
         link:
-          text: "Read more"
-          url: "/blog/"
-    design:
-    #   spacing:
-    #     padding: [0, 0, 0, 0]
-    #     margin: [0, 0, 0, 0]
-      # For full-screen, add `min-h-screen` below
-      css_class: "dark"
-      background:
-        color: "navy"
-        image:
-          # Add your image background to `assets/media/`.
-          filename: bg-triangles.svg
-          filters:
-            brightness: 0.5
-          size: cover
+          icon: graduation-cap
+          icon_pack: fas
+          text: Join Us
+          url: ../contact/
+      - title: 3D Semantic Understanding
+        content: '3D scene understanding with imbalanced data'
+        align: left
+        background:
+          image:
+            filename: zahaAnimated.gif
+            filters:
+              brightness: 0.7
           position: center
-          parallax: false
-  - block: stats
-    content:
-      items:
-        - statistic: "1M+"
-          description: |
-            Websites built  
-            with Hugo Blox
-        - statistic: "10k+"
-          description: |
-            GitHub stars  
-            since 2016
-        - statistic: "3k+"
-          description: |
-            Discord community  
-            for support
+          color: '#555'
+      - title: 3D Semantic Object Reconstruction
+        content: 'Reconstructing high-detail semantic 3D models'
+        align: left
+        background:
+          image:
+            filename: relod3.jpg
+            filters:
+              brightness: 0.5
+          position: center
+          color: '#333'
+      - title: 3D Models as Novel Modality
+        content: 'High-detail structured 3D models as new sensor signal'
+        align: left
+        background:
+          image:
+            filename: pose.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#555'
     design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-      # Reduce spacing
-      spacing:
-        padding: ["1rem", 0, "1rem", 0]
-  - block: features
-    id: features
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
+      slide_height: ''
+      is_fullscreen: true
+      # Automatically transition through slides?
+      loop: true
+      # Duration of transition between slides (in ms)
+      interval: 2200
+
+  - block: collection
     content:
-      title: Features
-      text: Build your site with blocks 🧱
-      items:
-        - name: Optimized SEO
-          icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
-          icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
-          icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
-          icon: code-bracket
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
-          icon: star
-          description: Rated 5-stars by the community.
-        - name: Swappable Blocks
-          icon: rectangle-group
-          description: Build your pages with blocks - no coding required!
-  - block: cta-image-paragraph
-    id: solutions
-    content:
-      items:
-        - title: Build your future-proof website
-          text: As easy as 1, 2, 3!
-          feature_icon: check
-          features:
-            - "Future-proof - edit your content in text files"
-            - "Website is generated by a single app, Hugo"
-            - "No JavaScript knowledge required"
-          # Upload image to `assets/media/` and reference the filename here
-          image: build-website.png
-          button:
-            text: Get Started
-            url: https://hugoblox.com/templates/
-        - title: Large Community
-          text: Join our large community on Discord - ask questions and get live responses
-          feature_icon: bolt
-          features:
-            - "Dedicated support channel"
-            - "3,000+ users on Discord"
-            - "Share your site and get feedback"
-          # Upload image to `assets/media/` and reference the filename here
-          image: coffee.jpg
-          button:
-            text: Join Discord
-            url: https://discord.gg/z8wNYzb
-    design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: testimonials
-    content:
-      title: ""
+      title: Latest Papers
       text: ""
-      items:
-        - name: "Hugo Smith"
-          role: "Marketing Executive at X"
-          # Upload image to `assets/media/` and reference the filename here
-          image: "testimonial-1.jpg"
-          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
+      count: 5
+      filters:
+        folders:
+          - publication
+   #       publication_type: 'article'
     design:
-      spacing:
-        # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, 0, 0]
-  - block: cta-card
-    content:
-      title: Build your future-proof website
-      text: As easy as 1, 2, 3!
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-300"
-        css_style: ""
+      view: citation
+      columns: '1'
+
+#  - block: markdown
+#    content:
+#      title:
+#      subtitle:
+#      text: |
+#        {{% cta cta_link="./contact/" cta_text="Contact us →" %}}
+#    design:
+#      columns: '1'
+#      background:
+#        image: 
+#          filename: ingolstadt.jpg
+#          filters:
+#            brightness: 0.5
+#          parallax: false
+#          position: center
+#          size: cover
+#          text_color_light: true
+#      spacing:
+#        padding: ['200px', '0', '2px', '0']
+#      css_class: fullscreen
 ---
