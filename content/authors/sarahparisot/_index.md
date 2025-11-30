@@ -1,29 +1,28 @@
 ---
 # Display name
-title: Olaf Wysocki
+title: Sarah Parisot
 
 # Full Name (for SEO)
-first_name: Olaf
-last_name: Wysocki
+first_name: Sarah
+last_name: Parisot
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: University of Cambridge, CV4DT, Assistant Research Professor
+role: Microsoft, Principal Researcher
 
 # Organizations/Affiliations
 organizations:
-  - name: University of Cambridge
+  - name: Microsoft
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - 3D Semantic Understanding
-  - 3D Semantic Reconstruction
-  - 3D Models as Sensors
+  - 3D Computer Vision
+  - 3D Reconstruction
 
 #education:
 #  courses:
@@ -44,16 +43,16 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:okw24@cam.ac.uk'
+    link: 'mailto:sarahparisot@microsoft.com'
   #- icon: twitter
   #  icon_pack: fab
   #  link: https://twitter.com/GeorgeCushen
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=N-AmfK4AAAAJ&hl=en
   - icon: github
     icon_pack: fab
-    link: https://olafwysocki.github.io/
+    link: https://www.microsoft.com/en-us/research/people/sarahparisot/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -72,4 +71,6 @@ user_groups:
   - Organisers
 ---
 
-I’m Assistant Research Professor at the University of Cambridge leading the group CV4DT.I was Research Associate on 3D object reconstruction & semantic segmentation of point clouds at the Photogrammetry & Remote Sensing Chair, Technical University of Munich, where I received summa cum laude PhD in Photogrammetry and Remote Sensing under the mentorship of Prof Thomas H. Kolbe and late Prof Uwe Stilla. A few years back, I obtained my Geodesy and Geoinformatics master’s degree with a major in photogrammetry from Technical University of Munich. I was fortunate to intern and complete my master’s thesis devoted to HD Maps for automated driving at Audi AG and had a previous stint as a geomatics professional in a 3D urban-reconstruction-focused company. Currently, a member of Runder Tisch GIS, TUM Data Innovation Lab and Get Kids into Survey. Cherishing interdisciplinary collaboration with top-notch professors and their labs: Yan Xia Christoph Holst Boris Jutzi Filip Biljecki Daniel Cremers.
+I am a Principal Researcher in the Game Intelligence (opens in new tab) team which develops novel machine learning technology with applications to video games and beyond. My research interests and experience include parameter efficient learning, computer vision and generative AI. My recent work has focused on text-to-image generative models, with an emphasis on controllability and interactivity.
+
+Prior to joining Microsoft, I was a Senior Research Scientist and Team Leader at Huawei Noah’s Ark Lab in London.

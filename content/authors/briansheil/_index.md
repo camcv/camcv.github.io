@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Dr Brian Sheil
+title: Brian Sheil
 
 # Full Name (for SEO)
 first_name: Brian
@@ -10,7 +10,7 @@ last_name: Sheil
 superuser: true
 
 # Role/position
-role: University of Cambridge, Laing O’Rourke Associate Professor in Construction Engineering
+role: University of Cambridge, Associate Professor
 
 # Organizations/Affiliations
 organizations:
