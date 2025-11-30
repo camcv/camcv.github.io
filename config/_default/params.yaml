@@ -1,0 +1,91 @@
+# SITE SETUP
+# Guide: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+# ==============================================================================
+# HUGO BLOX CONFIGURATION
+# ==============================================================================
+hugoblox:
+  # ────────────────────────────────────────────────────────────────────────────
+  # BRANDING
+  # Your site's identity - used in navbar, footer, SEO, and copyright
+  # ────────────────────────────────────────────────────────────────────────────
+  branding:
+    name: "My Company"
+    # Logo auto-detected from assets/media/logo.{svg,png}
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # THEME
+  # Controls colors and appearance
+  # ────────────────────────────────────────────────────────────────────────────
+  theme:
+    mode: light
+    pack: "default"
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # TYPOGRAPHY & LAYOUT
+  # ────────────────────────────────────────────────────────────────────────────
+  typography:
+    font: "sans"
+    size: "md"
+  layout:
+    radius: "md"
+    spacing: "comfortable"
+
+# ==============================================================================
+# SEO & MARKETING
+# ==============================================================================
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ''
+    description: 'A highly-customizable Hugo landing page theme powered by Hugo Blox website builder.'
+    twitter: 'BuildLore'
+    llm:
+      allow:
+        - /
+      disallow: []
+      note: 'Guidance for AI crawlers - customize to match your public content.'
+      contact: ''
+      policy_url: ''
+  analytics:
+    google_analytics: ''
+    baidu_tongji: ''
+    plausible: ''
+    fathom: ''
+    pirsch: ''
+  verification:
+    google: ''
+    baidu: ''
+
+# ==============================================================================
+# SITE HEADER
+# ==============================================================================
+header:
+  navbar:
+    enable: true
+    block: 'navbar'
+    align: 'center'
+    fixed_to_top: true
+    button:
+      enable: true
+      text: 'Get Started'
+      url: 'https://hugoblox.com/templates/'
+    show_search: true
+    show_mode_toggle: true
+    # show_theme_picker: true
+
+# ==============================================================================
+# SITE FOOTER
+# ==============================================================================
+footer:
+  copyright:
+    notice: '© {year} {name}'
+
+# ==============================================================================
+# LOCALIZATION
+# ==============================================================================
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'
