@@ -58,7 +58,7 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the CV4DT world
+      - title: 👋 Welcome to the CAMCV world
         content: 'Check out our research focus...'
         align: center
         background:

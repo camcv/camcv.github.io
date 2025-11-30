@@ -10,7 +10,7 @@ last_name: Sheil
 superuser: true
 
 # Role/position
-role: Laing O’Rourke Associate Professor in Construction Engineering
+role: University of Cambridge, Laing O’Rourke Associate Professor in Construction Engineering
 
 # Organizations/Affiliations
 organizations:
@@ -70,7 +70,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Organisers
 ---
 
 Dr Brian Sheil studied Civil Engineering for his undergraduate degree at the National University of Ireland, Galway (NUIG). He studied the behaviour of deep foundation systems for his PhD (also at NUIG), which involved a period as a Visiting Scholar at the University of California, Berkeley.

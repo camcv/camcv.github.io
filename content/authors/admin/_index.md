@@ -10,7 +10,7 @@ last_name: Wysocki
 superuser: true
 
 # Role/position
-role: Group Lead, Assistant Research Professor
+role: University of Cambridge, CV4DT, Assistant Research Professor
 
 # Organizations/Affiliations
 organizations:
@@ -69,7 +69,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Organisers
 ---
 
 I’m Assistant Research Professor at the University of Cambridge leading the group CV4DT.I was Research Associate on 3D object reconstruction & semantic segmentation of point clouds at the Photogrammetry & Remote Sensing Chair, Technical University of Munich, where I received summa cum laude PhD in Photogrammetry and Remote Sensing under the mentorship of Prof Thomas H. Kolbe and late Prof Uwe Stilla. A few years back, I obtained my Geodesy and Geoinformatics master’s degree with a major in photogrammetry from Technical University of Munich. I was fortunate to intern and complete my master’s thesis devoted to HD Maps for automated driving at Audi AG and had a previous stint as a geomatics professional in a 3D urban-reconstruction-focused company. Currently, a member of Runder Tisch GIS, TUM Data Innovation Lab and Get Kids into Survey. Cherishing interdisciplinary collaboration with top-notch professors and their labs: Yan Xia Christoph Holst Boris Jutzi Filip Biljecki Daniel Cremers.
