@@ -5,18 +5,17 @@ image:
   focal_point: 'top'
   filename: agenda.png
 ---
-**CV4DT** aims to gather researchers willing to push forward the boundaries of machine learning, photogrammetry, and computer vision.
-As shown above, our **CV4DT** research agenda focuses on the following aspects: 
-- 3D semantic understanding, 
-- 3D semantic reconstruction, 
-- 3D models as sensors, 
-- Uncertainty quantification -- overarching all three aspects.
 
-The rationale is that those aspects are interdependent and indispensable in creating digital twins from any sensory data, enabling any digital simulations before real-world action occurs.
+---
 
-We understand *digital twin* not as a mere 3D geometric representation of reality, but rather as a 3D model comprising a) 3D minimum-viable and watertight geometric representation, b) hierarchical semantics, c) estimated uncertainty of both predicted semantics and geometry; enabling updates of digital twins in the presence of new evidence.
+**The Cambridge Computer Vision Group:**
 
-The ultimate goal is to create methods enabling robust digital twinning, delivering impact to society in real-time monitoring and simulation of physical systems, leading to more efficient decision-making and reduced operational costs. 
-They also shall support sustainable development by optimising resource use and minimising environmental impact across industries. 
+* Serves as a unifying hub for researchers in Cambridge and beyond in computer vision and related fields, including computational photography, 3D vision, robotics perception, and visual AI
+* Brings together academia and industry through regular meetings, seminars, and invited talks
+* Provides a platform for sharing cutting-edge research and discussing emerging challenges in visual computing
+* Highlights a broad range of computer vision applications, including construction and civil engineering, medical imaging and healthcare, autonomous driving and robotics, remote sensing, manufacturing, and creative industries
+* Encourages collaboration across institutions, career stages, and application domains
+* Aims to strengthen Cambridge’s position as a global centre of excellence in computer vision and accelerate real-world impact
 
-Beyond science itself, we aim to create an environment where researchers of any background will thrive and develop their skills and careers. But first and foremost... have fun pursuing their passion!
+---
+
